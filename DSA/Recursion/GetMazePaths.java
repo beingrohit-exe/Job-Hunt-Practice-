@@ -6,11 +6,11 @@ public class GetMazePaths {
 
     public static ArrayList<String> getMazePaths(int sr, int sc, int dr, int dc) {
 
-        if (sr == dr && sc == dc) {
-            ArrayList<String> bc = new ArrayList<>();
-            bc.add("");
-            return bc;
-        }
+    if (sr == dr && sc == dc) {
+        ArrayList<String> bc = new ArrayList<>();
+        bc.add("");
+        return bc;
+    }
         ArrayList<String> horizontalPaths = new ArrayList<>();
         ArrayList<String> verticalPaths = new ArrayList<>();
 
