@@ -18,7 +18,7 @@ public class GetMazePaths {
             horizontalPaths = getMazePaths(sr, sc + 1, dr, dc);
         }
 
-        if (sr < dc) {
+        if (sr < dr) {
             verticalPaths = getMazePaths(sr + 1, sc, dr, dc);
         }
 
