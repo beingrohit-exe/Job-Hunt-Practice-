@@ -14,7 +14,7 @@ import java.util.Stack;
 
 public class Traversal {
 
-    public static class Node {
+    private static class Node {
         int data;
         ArrayList<Node> children = new ArrayList<>();
     }
